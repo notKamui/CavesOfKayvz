@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.newgame.NewGameFragment2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/statalloxText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="21dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/stat_allocation"
+            android:textSize="36sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/pointsleftText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="222dp"
+            android:layout_marginLeft="222dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:text="@string/points_left"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/pleftVal"
+            app:layout_constraintStart_toEndOf="@+id/statalloxText"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/pleftT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="89dp"
+            android:layout_marginRight="89dp"
+            android:text="@string/_5"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/pleftVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="27dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="19dp"
+            android:text="@string/dot"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/pleftT"
+            app:layout_constraintStart_toEndOf="@+id/pointsleftText"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/hpT2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="48dp"
+            android:text="@string/hp"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/statalloxText" />
+
+        <TextView
+            android:id="@+id/strT2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="33dp"
+            android:text="@string/str"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hpT2" />
+
+        <TextView
+            android:id="@+id/defT2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/def"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/strT2" />
+
+        <TextView
+            android:id="@+id/dexT2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/dex"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/defT2" />
+
+        <TextView
+            android:id="@+id/hpFp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="73dp"
+            android:layout_marginLeft="73dp"
+            android:layout_marginTop="48dp"
+            android:text="@string/dot"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/hpT2"
+            app:layout_constraintTop_toBottomOf="@+id/statalloxText" />
+
+        <TextView
+            android:id="@+id/strFp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="62dp"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="33dp"
+            android:text="@string/dot"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/strT2"
+            app:layout_constraintTop_toBottomOf="@+id/hpFp" />
+
+        <TextView
+            android:id="@+id/defFp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="63dp"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/dot"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/defT2"
+            app:layout_constraintTop_toBottomOf="@+id/strFp" />
+
+        <TextView
+            android:id="@+id/dexFp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="61dp"
+            android:layout_marginLeft="61dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/dot"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/dexT2"
+            app:layout_constraintTop_toBottomOf="@+id/defFp" />
+
+        <Button
+            android:id="@+id/minHP"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="18dp"
+            android:background="#03A9F4"
+            android:text="@string/minus"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            app:layout_constraintEnd_toStartOf="@+id/plusHP"
+            app:layout_constraintTop_toBottomOf="@+id/statalloxText" />
+
+        <Button
+            android:id="@+id/plusHP"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="105dp"
+            android:layout_marginEnd="438dp"
+            android:layout_marginRight="438dp"
+            android:background="#E91E63"
+            android:text="@string/plus"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/minSTR"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="18dp"
+            android:background="#03A9F4"
+            android:text="@string/minus"
+            app:layout_constraintEnd_toStartOf="@+id/plusSTR"
+            app:layout_constraintTop_toBottomOf="@+id/minHP" />
+
+        <Button
+            android:id="@+id/plusSTR"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="438dp"
+            android:layout_marginRight="438dp"
+            android:background="#E91E63"
+            android:text="@string/plus"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/plusHP" />
+
+        <Button
+            android:id="@+id/minDEF"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="18dp"
+            android:background="#03A9F4"
+            android:text="@string/minus"
+            app:layout_constraintEnd_toStartOf="@+id/plusDEF"
+            app:layout_constraintTop_toBottomOf="@+id/minSTR" />
+
+        <Button
+            android:id="@+id/plusDEF"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="438dp"
+            android:layout_marginRight="438dp"
+            android:background="#E91E63"
+            android:text="@string/plus"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/plusSTR" />
+
+        <Button
+            android:id="@+id/minDEX"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="18dp"
+            android:background="#03A9F4"
+            android:text="@string/minus"
+            app:layout_constraintEnd_toStartOf="@+id/plusDEX"
+            app:layout_constraintTop_toBottomOf="@+id/minDEF" />
+
+        <Button
+            android:id="@+id/plusDEX"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="438dp"
+            android:layout_marginRight="438dp"
+            android:background="#E91E63"
+            android:text="@string/plus"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/plusDEF" />
+
+        <TextView
+            android:id="@+id/hpFe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="113dp"
+            android:layout_marginEnd="363dp"
+            android:layout_marginRight="363dp"
+            android:text="@string/dot"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/strFe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="363dp"
+            android:layout_marginRight="363dp"
+            android:text="@string/dot"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hpFe" />
+
+        <TextView
+            android:id="@+id/defFe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="363dp"
+            android:layout_marginRight="363dp"
+            android:text="@string/dot"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/strFe" />
+
+        <TextView
+            android:id="@+id/dexFe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="363dp"
+            android:layout_marginRight="363dp"
+            android:text="@string/dot"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/defFe" />
+
+        <Button
+            android:id="@+id/startBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="17dp"
+            android:text="@string/start"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

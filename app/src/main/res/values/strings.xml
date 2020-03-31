@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Caves of Kayvz</string>
+    <string name="caves_of_kayvz">Caves of Kayvz</string>
+    <string name="new_game">New Game</string>
+    <string name="_continue">Continue</string>
+    <string name="how_to_play">How to Play</string>
+    <string name="back">←</string>
+    <string name="lipsum">Dolore sed odit reiciendis et. Consequatur eaque voluptatem sunt quisquam accusamus maiores est voluptatem. Nihil architecto aut quo. Omnis sed eligendi voluptas at nisi voluptatum. Voluptatibus amet quaerat id esse. Aliquam et sit odio recusandae. Voluptatem et voluptatem debitis esse id. Blanditiis minima consequuntur quis quo vitae minus nulla. Dolores est praesentium occaecati. Voluptate ab sit tempora quo autem. Numquam atque eveniet voluptatem quia. Dolores minima vel sunt aspernatur architecto velit ea dolores. Et numquam accusantium quis voluptas. Ab omnis aut dolorem quisquam. Aut suscipit aliquam quia. Laborum aspernatur non vero assumenda ratione aut. Recusandae qui omnis eos explicabo. Eveniet neque id nihil sed amet sit architecto. Qui esse qui quia porro. Sapiente rerum voluptatibus sunt voluptates nihil. Aspernatur itaque aut expedita optio minima ipsa in. Doloribus sint molestiae eaque tempora. Quia voluptas ut aliquid voluptatem dolor molestiae consequuntur.</string>
+    <string name="starting_class">Starting Class</string>
+    <string name="warrior">Warrior</string>
+    <string name="name">Name</string>
+    <string name="commoner">Commoner</string>
+    <string name="rogue">Rogue</string>
+    <string name="mage">Mage</string>
+    <string name="hp">HP :</string>
+    <string name="str">STR :</string>
+    <string name="def">DEF :</string>
+    <string name="res">RES :</string>
+    <string name="dex">DEX :</string>
+    <string name="tba" />
+    <string name="dot">.</string>
+    <string name="stat_allocation">Stat allocation</string>
+    <string name="_5">/5</string>
+    <string name="points_left">Points left :</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="start">Start</string>
+    <string name="slash">/</string>
+    <string name="battle">Battle</string>
+    <string name="asb">ASB :</string>
+    <string name="todo">TODO</string>
+    <string name="block">Block !</string>
+    <string name="wachout">!!!</string>
+    <string name="htpText">Create your character by choosing a base class, and then allowing 5 points in the stats of your choice. The game is about exploring a dungeon and fighting monsters. The combat system works with an action status bar. The higher your dexterity is, the quicker it will fill. When filled up, you can perform an action : either you attack, or you prepare your defenses for the incoming attack. You\'ll know when a monster is about to hit you because there will be three red exclamation mark. You can attack by clicking on a monster, or block by clicking on the block button.</string>
+</resources>
